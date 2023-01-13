@@ -9,4 +9,8 @@ input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Yes)
     basic.showString("A+B")
 })
+input.onGesture(Gesture.Shake, function () {
+    music.playMelody("- - - - - - - - ", 120)
+})
+basic.showString("Hello!")
 basic.showIcon(IconNames.Happy)
