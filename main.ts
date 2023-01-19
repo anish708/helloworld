@@ -3,20 +3,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("Now B")
 })
 input.onGesture(Gesture.ScreenDown, function () {
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        # . # . #
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        # . # . #
-        `)
+    basic.showString("....")
     basic.showIcon(IconNames.Angry)
 })
 input.onButtonPressed(Button.AB, function () {
