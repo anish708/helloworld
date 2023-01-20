@@ -1,3 +1,6 @@
+input.onPinReleased(TouchPin.P0, function () {
+    basic.showString("Secret")
+})
 input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
     music.playMelody("B B A G E B F C5 ", 180)
     music.playMelody("G C5 B F C5 A B G ", 180)
