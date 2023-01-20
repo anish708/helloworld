@@ -4,7 +4,7 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onGesture(Gesture.ScreenDown, function () {
     basic.showString("....")
-    basic.showIcon(IconNames.Angry)
+    basic.showIcon(IconNames.Sad)
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showIcon(IconNames.Yes)
