@@ -1,6 +1,6 @@
 input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
     music.playMelody("B B A G E B F C5 ", 180)
-    music.playMelody("C5 G B F C5 A B G ", 180)
+    music.playMelody("G C5 B F C5 A B G ", 180)
 })
 input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Yes)
